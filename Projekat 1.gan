@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="GIS baza za zrtve genocida" company="Master GIS - Geografski fakultet Beograd" webLink="http://" view-date="2023-12-15" view-index="0" gantt-divider-location="497" resource-divider-location="300" version="3.2.3247" locale="sr">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="назив" width="338" order="0"/>
+        <field id="tpd4" name="почетак" width="84" order="1"/>
+        <field id="tpd5" name="завршетак" width="74" order="2"/>
+        <option id="filter.completedTasks" value="true"/>
+        <option id="color.recent">
+            <![CDATA[#33ff33 #ffff33 #ffcc66 #ff6666]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Име" width="210" order="0"/>
+        <field id="1" name="подразумевана улога" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="7" name="Iniciranje projekta - Upoznavanje sa temom" color="#8cb6ce" meeting="false" start="2023-11-14" duration="5" complete="0" thirdDate="2023-11-17" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="Iniciranje projekta - Kreiranje povelje" color="#8cb6ce" meeting="false" start="2023-11-17" duration="2" complete="0" thirdDate="2023-11-20" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Iniciranje projekta - Izrada plana za sprovodjenje projekta" color="#8cb6ce" meeting="false" start="2023-11-20" duration="1" complete="0" thirdDate="2023-11-20" thirdDate-constraint="0" expand="false"/>
+        <task id="2" name="Iniciranje projekta - Dostavljanje plana projekta" color="#8cb6ce" meeting="false" start="2023-11-20" duration="1" complete="0" thirdDate="2023-11-20" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Priprema projekta - Prikupljanje podataka" color="#ff6666" meeting="false" start="2023-11-20" duration="11" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Provera podataka i njihove dosupnosti na internet stranici Saveza jevrejskih opština Srbije]]>
+            </notes>
+        </task>
+        <task id="9" name="Priprema projekta - Preuzimanje podataka" color="#ff6666" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Priprema projekta - Izbor podataka za analiziranje" color="#ff6666" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Priprema projekta - Pripremanje eksel tabele sa podacima" color="#ff6666" meeting="false" start="2023-12-05" duration="1" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Obrada podataka - Provera pripremljenog materijala" color="#ffff33" meeting="false" start="2023-12-06" duration="1" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Obrada podataka - Uredjivanje atributivne tabele i Shapefile-a u QGIS" color="#ffff33" meeting="false" start="2023-12-07" duration="9" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="Obrada podataka - Kreiranje leyer-a" color="#ffff33" meeting="false" start="2023-12-20" duration="4" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Zatvaranje projekta - Kreiranje karata" color="#33ff33" meeting="false" start="2023-12-26" duration="10" complete="0" thirdDate="2023-11-14" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Karta 1 - Karta 1 - Broj stradalih Srba po opštinama Sremskog okruga
+
+Karta 2 - Karta 2 - Broj stradalih Jevreja po opštinama Sremskog okruga]]>
+            </notes>
+        </task>
+        <task id="16" name="Zatvaranje projekta - Isporuka proizvoda i rezultata" color="#33ff33" meeting="false" start="2024-01-09" duration="2" complete="0" thirdDate="2023-12-14" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Zatvaranje projekta - Dostavljenje finalnog izveštaja i arhiviranje projekta" color="#33ff33" meeting="false" start="2024-01-10" duration="1" complete="0" thirdDate="2023-12-13" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
